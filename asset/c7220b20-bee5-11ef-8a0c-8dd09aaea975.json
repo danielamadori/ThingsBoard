@@ -1,0 +1,54 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "bda0c8c0-9d20-11ef-b7e4-830e83323e87"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "c7220b20-bee5-11ef-8a0c-8dd09aaea975"
+    },
+    "label" : null,
+    "name" : "General Surgery",
+    "type" : "default"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "c7220b20-bee5-11ef-8a0c-8dd09aaea975"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ea9b84a0-beea-11ef-8a0c-8dd09aaea975"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 228
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "c7220b20-bee5-11ef-8a0c-8dd09aaea975"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "ec3dfa10-b894-11ef-b8d3-8dd09aaea975"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 227
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
